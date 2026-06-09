@@ -44,8 +44,8 @@
             <label class="form-label-mentality">Email</label>
             <div class="input-group">
               <span class="input-group-text bg-light border-end-0"><i class="bi bi-envelope text-muted"></i></span>
-              <input type="email" name="email" class="form-control form-control-mentality border-start-0 ps-0"
-                placeholder="admin@mentality.id" value="<?= esc(old('email')) ?>" required>
+              <input type="email" name="email" class="form-control form-control-mentality border-start-0 ps-2"
+                placeholder="Email" value="<?= esc(old('email')) ?>" required>
             </div>
           </div>
 
@@ -54,7 +54,7 @@
             <div class="input-group">
               <span class="input-group-text bg-light border-end-0"><i class="bi bi-lock text-muted"></i></span>
               <input type="password" name="password" id="passwordInput"
-                class="form-control form-control-mentality border-start-0 border-end-0 ps-0"
+                class="form-control form-control-mentality border-start-0 border-end-0 ps-2"
                 placeholder="••••••••" required>
               <span class="input-group-text bg-light border-start-0" style="cursor:pointer" onclick="togglePass()">
                 <i class="bi bi-eye" id="eyeIcon"></i>
