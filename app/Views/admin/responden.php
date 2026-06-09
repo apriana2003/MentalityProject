@@ -25,8 +25,6 @@
           <th>#</th>
           <th>Nama</th>
           <th>Email</th>
-          <th>NIM</th>
-          <th>Universitas</th>
           <th>Jenis Kelamin</th>
           <th>Usia</th>
           <th>Jumlah Tes</th>
@@ -53,8 +51,6 @@
             </div>
           </td>
           <td class="text-muted"><?= esc($r['email']) ?></td>
-          <td class="text-muted"><?= esc($r['nim'] ?? '-') ?></td>
-          <td><?= esc($r['universitas'] ?? '-') ?></td>
           <td>
             <span class="badge <?= $r['jenis_kelamin']==='L'?'badge-normal':'badge-ringan' ?>">
               <?= $r['jenis_kelamin']==='L' ? 'Laki-laki' : 'Perempuan' ?>
