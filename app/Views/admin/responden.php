@@ -8,7 +8,7 @@
     <!-- Search -->
     <form method="GET" class="d-flex gap-2">
       <input type="text" name="search" class="form-control form-control-sm rounded-pill" style="width:220px"
-        placeholder="Cari nama / email / kampus..." value="<?= esc($search) ?>">
+        placeholder="Cari nama " value="<?= esc($search) ?>">
       <button class="btn btn-sm btn-primary-custom rounded-pill px-3">
         <i class="bi bi-search"></i>
       </button>
