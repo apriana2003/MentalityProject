@@ -18,6 +18,12 @@ class App extends BaseConfig
      */
     public string $baseURL = 'https://mentality.up.railway.app/';
 
+    public function __construct()
+    {
+        parent::__construct();
+        $this->baseURL = 'https://mentality.up.railway.app/';
+    }
+
     public bool $forceGlobalSecureRequests = true; // paksa HTTPS
 
     /**
