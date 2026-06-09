@@ -25,7 +25,7 @@
     <table class="table table-hover">
       <thead>
         <tr>
-          <th>#</th><th>Nama</th><th>Universitas</th>
+          <th>#</th><th>Nama</th>
           <th>Depresi</th><th>Kecemasan</th><th>Stres</th>
           <th>Status Umum</th><th>Tanggal</th>
         </tr>
@@ -52,7 +52,6 @@
             <div class="fw-semibold"><?= esc($h['nama']) ?></div>
             <div style="font-size:.75rem;color:#64748b"><?= esc($h['email']) ?></div>
           </td>
-          <td class="text-muted"><?= esc($h['universitas']??'-') ?></td>
           <?php foreach([
             [$h['skor_depresi'],$h['kategori_depresi']],
             [$h['skor_kecemasan'],$h['kategori_kecemasan']],
